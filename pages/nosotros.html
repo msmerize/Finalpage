@@ -3,94 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        M&M CAPITAL
+    M&M CAPITAL
     </title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" type="image/x-icon" href="Multimedia/financeAdvisoryIcon.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../FINAL1.PRIVITERA.MARTINSALVADOR/pages/Multimedia/financeAdvisoryIcon.png">
 </head>
 
-<body>
+<body class="bg-black">
     <header>
         <a id="backtotop"></a>
     <img src="Multimedia/financeAdvisoryLogo400x400.png" class="mainLogo">
-        <div class="navBar">
-            <ul><!--Lista desordenada-->
-            <a href="../index.html">
-                <li>
-                    Inicio 
-                </li>
-            </a>
-            <a href="nosotros.html">
-                <li>
-                    Nosotros 
-                </li>
-            </a>
-            <a href="servicios.html">
-                <li>
-                    Servicios 
-                </li>
-            </a>
-            <a href="blog.html">
-                <li>
-                    Blog
-                </li>
-            </a>
-            <a href="reserva.html">
-                <li>
-                    Reserva
-                </li>
-            </a>
-            </ul>
-        </div>
-        <div class="headLine"><!--Encabezados-->
-            <h1>NOSOTROS</h1>
-            <h3 class="headLineSub">METODOS DE ADMINISTRACION</h3>
-            <h5>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, labore ipsum deleniti voluptatem laudantium mollitia, dignissimos ullam nulla fuga laboriosam placeat numquam recusandae aliquid architecto ex qui. Ipsam, aspernatur deleniti?
-                Assumenda dignissimos fuga accusantium minima ex error qui labore voluptatibus laudantium. Mollitia totam debitis obcaecati minima officiis excepturi eligendi, harum, distinctio saepe molestias eius est fugiat vel. Tenetur, vero reprehenderit?
-                Iure doloribus nihil magnam odio voluptatibus ratione nisi molestiae accusantium quas soluta, reiciendis, aspernatur voluptate dicta accusamus? Aspernatur, quasi sit id odio laboriosam quis necessitatibus. Veniam iste eligendi architecto illo?
-                Dolore totam numquam veritatis illo quo esse repudiandae odit. Repellat repellendus magni mollitia iste. Minus, eius! Sit natus sapiente rem inventore atque quia excepturi omnis molestias! Dolore asperiores veritatis nemo.
-                Tenetur maiores quidem quis consequatur distinctio aspernatur debitis sint, error dolore. Sequi sed soluta, optio ducimus rem nesciunt eveniet commodi. Adipisci in, eveniet inventore exercitationem quo possimus vel voluptate rem?
-            </h5>
-        </div>
+    <!--BARRA NAVEGADOR-->
+    <div>
+        <ul class="navbar">
+        <a class="nav-link" href="../index.html">
+            <li class="nav-item">
+                Inicio
+            </li>
+        </a>
+        <a class="nav-link" href="pages/nosotros.html">
+            <li class="nav-item">
+                Nosotros
+            </li>
+        </a>
+        <a class="nav-link" href="#">
+            <li class="nav-item">
+                Servicios
+            </li>
+        </a>
+        <a class="nav-link" href="#">
+            <li class="nav-item">
+                Blog
+            </li>
+        </a>
+        <a class="nav-link" href="#">
+            <li class="nav-item">
+                Contacto
+            </li>
+        </a>
+    </ul>
+    </div>
     </header>
     <section>
-        <div></div>
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom justify-content-center">IMGS</h2>
+        
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">IMG A</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Earth</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>3d</small>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">IMG B</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>Pakistan</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>4d</small>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">IMG C</h2>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                        <small>California</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                        <small>5d</small>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div> 
+        
+    <section>
+    <!-- PARRAFO -->
+    <div class="bodyTxt">
+        <h2>NOSOTROS</h2>
+    <p>
+        METODOS DE ADMINISTRACION
+    </p>
+    <h5>
+        (METODOS)
+    </h5>
+    <a href="#contacto" class="pointer">Contacto</a>
+    </div>
     </section>
     <footer>
-        <a href="#backtotop" class="volver">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="12" r="9" />
-            <line x1="12" y1="8" x2="8" y2="12" />
-            <line x1="12" y1="8" x2="12" y2="16" />
-            <line x1="16" y1="12" x2="12" y2="8" />
-        </svg></a>
-    <p id="contacto">
-        <table class="contacto">
+    <div id="contacto">
+        <table class="contacto"><!--TABLA CONTACTO-->
             <tr>
                 <td><h6>M&M</h6><h6>EMAIL</h6></td>
-                <td><h6>+54 000 00000000</h6><h6>martinminoldo@protonmail.com</h6></td> 
+                <td><h6>+54 000 00000000</h6><h6>martinminoldo@protonmail.com</h6></td>
             </tr>
         </table>
-    </p>
-    <p class="links"><!--LINKS EXTERNOS ICONOS-->
+        <!--BOTON VOLVER ARRIBA-->
+    <a href="#backtotop" class="volver">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="44" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="12" r="9" />
+        <line x1="12" y1="8" x2="8" y2="12" />
+        <line x1="12" y1="8" x2="12" y2="16" />
+        <line x1="16" y1="12" x2="12" y2="8" />
+        </svg></a>
+    </div>
+    
+    <div class="links"><!--LINKS EXTERNOS ICONOS-->
         <a href="http://wa.me/5491123876399" target="_blank">
-            <i><img src="Multimedia/ICON/whatsapp.svg" alt="WhatsApp"></i>
+        <i><img class="wsp" src="/pages/Multimedia/ICON/whatsapp.svg" alt="WhatsApp"></i>
         </a>
         <a href="https://www.instagram.com/msprivitera/?hl=es-la" target="_blank">
-            <i><img src="Multimedia/ICON/instagram.svg" alt="Instagram"></i>
+        <i><img class="ig" src="/pages/Multimedia/ICON/instagram.svg" alt="Instagram"></i>
         </a>
         <a href="https://discord.gg/YnQxUTFhcw" target="_blank">
-            <i><img src="Multimedia/ICON/discord.svg" alt="Discord"></i>
+        <i><img class="dsc" src="/pages/Multimedia/ICON/discord.svg" alt="Discord"></i>
         </a>
         <a href="https://t.me/msmerize" target="_blank">
-            <i><img src="Multimedia/ICON/telegram.svg" alt="Telegram"></i>
+        <i><img class="tlg" src="/pages/Multimedia/ICON/telegram.svg" alt="Telegram"></i>
         </a>
-    </p>
+    </div>
     </footer>
+    
+    <!-- BOOTSTRAP CONNECTION -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-
 </html>
