@@ -16,6 +16,7 @@ body { /* whole html (*) */
 
 /* CABECERA */
 .headLine {
+    color: white;
     font-size: large;
     display: block;
     text-align: center;
@@ -27,10 +28,18 @@ body { /* whole html (*) */
     justify-content: center;
     font-family: 'Gentium Plus';
     font-style: italic;
+    color: white;
     margin: 30px 50px 30px 50px ;
 }
 
-.headLine h5 {
+.headLine h6 {
+    font-family: 'Gentium Plus';
+    font-size: small;
+    margin: 10px 50px;
+    padding: 5px 15px;
+}
+.headLine h1 {
+    font-family: 'Gentium Plus';
     margin: 10px 50px;
     padding: 5px 15px;
 }
@@ -40,7 +49,7 @@ body { /* whole html (*) */
     display: block;
     padding: 2px 6px;
     text-decoration: none;
-    width: 32px;
+    width: 52px;
     position: fixed;
     bottom: 5px;
     right: 15px;
@@ -71,29 +80,28 @@ body { /* whole html (*) */
 }
 
 /* BARRA NAVEGACION */
-
-.navBar ul {
+.navbar li {
     display: flex;
     list-style: none;
     text-decoration: none;
     font-family: 'Gentium Plus';
     font-size: larger;
-    justify-content: center;
-    margin: 0 auto;
+    background-color: #1cfdb9;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 20px 30px;
     border: 0px outset white;
     padding: 5px;
 }
 
-.navBar ul a li {
+.nav-item {
     list-style: none;
     text-decoration: none;
     color: black;
-    display: inline;
+    display: flex;
     background-color: #1cfdb9;
-    padding: 10px 80px;
+    padding: 10px 10px;
     margin: 0.5px 10px;
-    justify-content: center;
-    border-radius: 10px;
 
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -101,35 +109,44 @@ body { /* whole html (*) */
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
 }
-.navBar ul a li {
+.navbar a {
+    margin: auto 3px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-style: bold;
 }
 
-.navBar ul li:hover {
+.navbar li:hover {
     background-color: #ff004c;
     color: #ffffff;
-}
+} 
 
 /* BODY */
 .bodyTxt h2 {
+    font-family: 'Gentium Plus';
     display: flex;
     justify-content: center;
     text-align: center;
+    color: #ffffff;
     margin: 80px 50px 30px 50px;
 }
 
 .bodyTxt h5 {
+    font-family: 'Gentium Plus';
+    font-size: small;
     display: flex;
     justify-content: center;
     text-align: center;
+    color: #ffffff;
     margin: 10px 50px 30px 50px;
 }
 
 .bodyTxt p {
+    font-family: 'Gentium Plus';
     display: flex;
     justify-content: center;
+    text-align: center;
+    color: #ffffff;
     margin: 50px 50px 10px 50px;
 }
 
@@ -207,6 +224,12 @@ img {
     filter: invert(99%) sepia(36%) saturate(7083%) hue-rotate(79deg) brightness(106%) contrast(98%);
 }
 
+/* VOLVER ARRIBA */
+.icon {
+    justify-content: center;
+}
+
+
 /* .formulario {
     display: block;
     text-align: center;
@@ -214,20 +237,165 @@ img {
 
 /* MEDIA QUERY'S */
 
-/* MOBILE */
+/* MOBILE
 @media only screen and (max-width: 480px) {
     .navBar{
         color: #1cfdb9;
     }
 }
-
+*/
 /* TABLETS
 @media only screen and (min-width: 481px) and (max-width: 960px){
 
 } */
 
-
-/* DESKTOP */
+/* DESKTOP
 @media only screen and (min-width: 961px) {
     
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CODIGO ANTERIOR */
+
+/* .navBar ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gentium Plus';
+    font-size: larger;
+    justify-content: center;
+    margin: 0 auto;
+    border: 0px outset white;
+    padding: 5px;
 }
+
+.navBar ul a li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    background-color: #1cfdb9;
+    padding: 10px 80px;
+    margin: 0.5px 10px;
+    justify-content: center;
+    border-radius: 10px;
+
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+.navBar ul a li {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-style: bold;
+}
+
+.navBar ul li:hover {
+    background-color: #ff004c;
+    color: #ffffff;
+} */
