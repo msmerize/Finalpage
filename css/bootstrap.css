@@ -51,12 +51,13 @@ body { /* whole html (*) */
     text-decoration: none;
     width: 52px;
     position: fixed;
-    bottom: 5px;
+    bottom: 45px;
     right: 15px;
     background-color: #ff004c80;
     border: 4px outset #ff004c;
     border-radius: 30px;
     transition: all .3s ease-in-out;
+    z-index: 1;
 }
 
 .links img {
@@ -81,7 +82,7 @@ body { /* whole html (*) */
 
 /* BARRA NAVEGACION */
 .navbar li {
-    display: flex;
+    display: block;
     list-style: none;
     text-decoration: none;
     font-family: 'Gentium Plus';
@@ -91,7 +92,7 @@ body { /* whole html (*) */
     justify-content: space-around;
     margin: 20px 30px;
     border: 0px outset white;
-    padding: 5px;
+    padding: 5px 50px;
 }
 
 .nav-item {
@@ -143,12 +144,19 @@ body { /* whole html (*) */
 
 .bodyTxt p {
     font-family: 'Gentium Plus';
-    display: flex;
-    justify-content: center;
+    display: block;
+    align-items: left;
     text-align: center;
     color: #ffffff;
     margin: 50px 50px 10px 50px;
 }
+
+.bodyTxt ul li {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
 
 /* IMAGENES */
 
@@ -159,10 +167,11 @@ img {
 .imgA {
     width: 100%;
 }
-.imgB {
+.imgB div {
     margin: 20px 0px;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 .newsLetter {
@@ -189,8 +198,8 @@ img {
 }
 
 .volver {
-    display: block;
-    text-align: center;
+    display: flex;
+    text-align: left;
     margin: 10px 920px;
     color: #1aecad79;
     border: 0px solid white;
@@ -225,8 +234,15 @@ img {
 }
 
 /* VOLVER ARRIBA */
-.icon {
-    justify-content: center;
+/* .icon div {
+    justify-content: left;
+    align-items: flex-start;
+    align-self: flex-start;
+} */
+
+/* BOTON VER MAS */
+.btn {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(118deg) brightness(105%) contrast(101%);
 }
 
 

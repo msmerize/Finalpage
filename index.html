@@ -9,11 +9,11 @@
     </title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="../FINAL1.PRIVITERA.MARTINSALVADOR/pages/Multimedia/financeAdvisoryIcon.png">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="../FINAL1.PRIVITERA.MARTINSALVADOR/pages/Multimedia/financeAdvisoryIcon.png">
 </head>
 <body class="bg-black">
   <header> <!--CABECERA-->
-  <div class="container-fluid col-sm-6 col-lg-8">
+  <div class="container-fluid col-sm-6 col-lg-5">
       <a id="backtotop"></a>
       <img src="pages/Multimedia/financeAdvisoryLogo400x400.png" class="mainLogo" href="index.html">
   </div>
@@ -30,17 +30,17 @@
         Nosotros
       </li>
     </a>
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="pages/servicios.html">
       <li class="nav-item">
         Servicios
       </li>
     </a>
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="pages/blog.html">
       <li class="nav-item">
         Blog
       </li>
     </a>
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="pages/reserva.html">
       <li class="nav-item">
         Contacto
       </li>
@@ -69,26 +69,125 @@
     </h5>
     <a href="#contacto" class="pointer">Contacto</a>
   </div>
-    <img src="pages/Multimedia/backbuild.png" class="imgB">
-  </section>
-  <footer>
-    <div id="contacto">
-        <table class="contacto"><!--TABLA CONTACTO-->
-            <tr>
-                <td><h6>M&M</h6><h6>EMAIL</h6></td>
-                <td><h6>+54 000 00000000</h6><h6>martinminoldo@protonmail.com</h6></td>
-            </tr>
-        </table>
-        <!--BOTON VOLVER ARRIBA-->
-    <a href="#backtotop" class="volver">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="44" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <circle cx="12" cy="12" r="9" />
-        <line x1="12" y1="8" x2="8" y2="12" />
-        <line x1="12" y1="8" x2="12" y2="16" />
-        <line x1="16" y1="12" x2="12" y2="8" />
-      </svg></a>
+  <!-- INICIO CAROUSEL -->
+  <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="pages/Multimedia/backbuild.jpeg" alt="Img" />
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <h5 class="text-dark text-uppercase mb-3 animated slideInDown">
+                    M&M CAPITAL
+                  </h5>
+                  <h1 class="display-2 text-dark mb-3 animated slideInDown">
+                    The Finance Advisory
+                  </h1>
+                  <ol class="breadcrumb mb-4 pb-2">
+                    <li class="breadcrumb-item fs-5 text-dark">
+                      CRYPTO
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-dark">
+                      STOCKS
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-dark">
+                      COMMODITIES
+                    </li>
+                  </ol>
+                  <a href="" class="btn btn-primary py-3 px-5">Ver Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="pages/Multimedia/backbuild.png" alt="Image"/>
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <h5 class="text-light text-uppercase mb-3 animated slideInDown">
+                    M&M CAPITAL
+                  </h5>
+                  <h1 class="display-2 text-light mb-3 animated slideInDown">
+                    The Finance Advisory
+                  </h1>
+                  <ol class="breadcrumb mb-4 pb-2">
+                    <li class="breadcrumb-item fs-5 text-light">
+                      FOREX
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      SECURITY
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      MENTORING
+                    </li>
+                  </ol>
+                  <a href="" class="btn btn-primary py-3 px-5">Ver Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#header-carousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </div>
+  </section>
+  <!-- FIN CAROUSEL -->
+  <footer>
+    <!--BOTON VOLVER ARRIBA-->
+    <!-- <div>
+      <a href="#backtotop" class="volver">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" justify-content="left" width="44" height="46" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="12" cy="12" r="9" />
+          <line x1="12" y1="8" x2="8" y2="12" />
+          <line x1="12" y1="8" x2="12" y2="16" />
+          <line x1="16" y1="12" x2="12" y2="8" />
+        </svg></a>
+    </div> -->
+    <div id="contacto"></div>
+    <!-- INICIO DOWNBAR -->
+    <div class="container-fluid bg-dark text-light p-1">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div
+            class="h-70 d-inline-flex align-items-center border-start border-end px-3">
+            <small class="fa fa-phone-alt me-2"></small>
+            <small>+54 011-2387-6399</small>
+          </div>
+          <div class="h-70 d-inline-flex align-items-center border-end px-3">
+            <small class="far fa-envelope-open me-2"></small>
+            <small>mmcapital@protonmail.com</small>
+          </div>
+          <div class="h-70 d-inline-flex align-items-center border-end px-3">
+            <small class="far fa-clock me-2"></small>
+            <small>Mon - Fri : 08 AM - 16 PM</small>
+          </div>
+        </div>
+        <!-- <div class="col-lg-5 px-5 text-end">
+        </div> -->
+      </div>
+    </div>
+    <!-- FIN DOWNBAR -->
     
     <div class="links"><!--LINKS EXTERNOS ICONOS-->
       <a href="http://wa.me/5491123876399" target="_blank">
