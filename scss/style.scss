@@ -1,0 +1,41 @@
+// // VARIABLES
+// $bg-home: black;
+// $bg-border-menu: 2px dotted gray;
+// $decoration: underline;
+// $color-principal: green;
+// $color-border: black;
+// $color-button: blue;
+
+// // LISTAS
+
+// $colores:
+// red,
+// blue,
+// yellow,
+// green,
+// goldenrod;
+
+// $font-encabezados:
+// 16px,
+// 22px,
+// 36px,
+// 44px,
+// 56px;
+
+// USAMOS UNA FUNCION QUE SE LLAMA nth(nro orden lista) PARA LLAMAR A LA LISTA Y LO QUE NECESITEMOS.
+
+// CONEXIÓN CON SCSS
+
+// BASE
+@import '../scss/base/variables';
+@import '../scss/base/body';
+@import '../scss/base/header';
+@import '../scss/base/navbar';
+// COMPONENTS
+@import '../scss/components/links';
+@import '../scss/components/fonts';
+@import '../scss/components/generales';
+@import '../scss/components/imagenes';
+@import '../scss/components/contacto';
+@import '../scss/components/svgs';
+@import '../scss/components/buttons';

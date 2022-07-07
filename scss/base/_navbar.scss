@@ -1,0 +1,55 @@
+/* BARRA NAVEGACION */
+.navbar li {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gentium Plus';
+    font-size: larger;
+    background-color: #1cfdb9;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 20px 30px;
+    border: 0px outset white;
+    padding: 5px 50px;
+    a {
+        margin: auto 3px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-style: bold;
+    }
+    &:hover {
+        background-color: #ff004c;
+        color: #ffffff;
+    } 
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    background-color: #1cfdb9;
+    padding: 10px 10px;
+    margin: 0.5px 10px;
+
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+}
+
+
+
+
+// .navbar a {
+//     margin: auto 3px;
+//     color: rgb(0, 0, 0);
+//     text-decoration: none;
+//     font-style: bold;
+// }
+
+// .navbar li:hover {
+//     background-color: #ff004c;
+//     color: #ffffff;
+// } 

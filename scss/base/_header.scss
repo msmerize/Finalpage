@@ -1,0 +1,110 @@
+/* CABECERA */
+
+.headLine {
+    color: white;
+    font-size: large;
+    display: block;
+    text-align: center;
+    margin: 80px 50px;
+    h6 {
+        font-family: 'Gentium Plus';
+        font-size: small;
+        margin: 10px 50px;
+        padding: 5px 15px;
+    }
+    h1 {
+        font-family: 'Gentium Plus';
+        margin: 10px 50px;
+        padding: 5px 15px;
+    }
+}
+
+.headLineSub {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gentium Plus';
+    font-style: italic;
+    color: white;
+    margin: 30px 50px 30px 50px ;
+}
+
+
+
+
+
+
+
+
+
+
+// .headLine h6 {
+//     font-family: 'Gentium Plus';
+//     font-size: small;
+//     margin: 10px 50px;
+//     padding: 5px 15px;
+// }
+// .headLine h1 {
+//     font-family: 'Gentium Plus';
+//     margin: 10px 50px;
+//     padding: 5px 15px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// header {
+//     background-color: aliceblue;
+//     nav {
+//         border: 2px solid black;
+//         ul {
+//             list-style: circle;
+//             li {
+//                 a {
+//                     text-decoration: none;
+//                 // &
+//                         &:hover {
+//                     text-decoration: underline;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     @media screen and (max-width: 490px) {
+//     background-color: aquamarine;
+//     }
+// }

@@ -1,0 +1,23 @@
+/* IMAGENES */
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+.imgA {
+    width: 100%;
+}
+.imgB div {
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.newsLetter {
+    display: flex;
+    width: 60vw;
+    height: 20vh;
+    align-items: center;
+    margin: 30px 20vw;
+}

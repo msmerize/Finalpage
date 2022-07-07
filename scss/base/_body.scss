@@ -1,0 +1,80 @@
+/* BODY */
+.bodyTxt {
+    h2 {
+        font-family: 'Gentium Plus';
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        margin: 80px 50px 30px 50px;
+    }
+    h5 {
+        font-family: 'Gentium Plus';
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        margin: 10px 50px 30px 50px;
+    }
+    p {
+        font-family: 'Gentium Plus';
+        display: block;
+        align-items: left;
+        text-align: center;
+        color: #ffffff;
+        margin: 50px 50px 10px 50px;
+    }
+    ul li {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+    }
+}
+
+.bodyTxtus {
+    h2 {
+        font-family: 'Gentium Plus';
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        margin: 80px 50px 30px 50px;
+    }
+    ul li {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        list-style: disc;
+    }
+}
+
+
+
+
+
+
+// .bodyTxt h5 {
+//     font-family: 'Gentium Plus';
+//     font-size: small;
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     color: #ffffff;
+//     margin: 10px 50px 30px 50px;
+// }
+
+// .bodyTxt p {
+//     font-family: 'Gentium Plus';
+//     display: block;
+//     align-items: left;
+//     text-align: center;
+//     color: #ffffff;
+//     margin: 50px 50px 10px 50px;
+// }
+
+// .bodyTxt ul li {
+//     display: flex;
+//     justify-content: center;
+//     color: #ffffff;
+// }
